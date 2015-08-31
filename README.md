@@ -1,0 +1,2 @@
+# BQLocalizableStringExample
+iOS App 利用NSLocalizedString 实现文本本地化Example
