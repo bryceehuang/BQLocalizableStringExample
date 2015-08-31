@@ -53,4 +53,4 @@ genstrings -o en.lproj *.m
 ![localizable_zh-Hans](./screenshots/Localizable_en.png)
 
 
-更多内容，请移步博客:[http://bingqihuang.github.io/2015/08/28/使用genstring和NSLocalizedString实现App文本的本地化/](http://bingqihuang.github.io/2015/08/28/genstring%E5%92%8CNSLocalizedString%E5%AE%9E%E7%8E%B0App%E6%96%87%E6%9C%AC%E7%9A%84%E6%9C%AC%E5%9C%B0%E5%8C%96/)
+更多内容，请移步博客:[http://bingqihuang.github.io](http://bingqihuang.github.io/2015/08/28/genstring%E5%92%8CNSLocalizedString%E5%AE%9E%E7%8E%B0App%E6%96%87%E6%9C%AC%E7%9A%84%E6%9C%AC%E5%9C%B0%E5%8C%96/)
