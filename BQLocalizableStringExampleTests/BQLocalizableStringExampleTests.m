@@ -1,6 +1,6 @@
 //
-//  BQPopupControllerTests.m
-//  BQPopupControllerTests
+//  BQLocalizableStringExampleTests.m
+//  BQLocalizableStringExampleTests
 //
 //  Created by HuangBQ on 15/8/28.
 //  Copyright (c) 2015年 HuangBQ. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface BQPopupControllerTests : XCTestCase
+@interface BQLocalizableStringExampleTests : XCTestCase
 
 @end
 
-@implementation BQPopupControllerTests
+@implementation BQLocalizableStringExampleTests
 
 - (void)setUp {
     [super setUp];

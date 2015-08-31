@@ -13,7 +13,9 @@
 		842E43961B900936009B5E17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842E43941B900936009B5E17 /* Main.storyboard */; };
 		842E43981B900936009B5E17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842E43971B900936009B5E17 /* Images.xcassets */; };
 		842E439B1B900936009B5E17 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842E43991B900936009B5E17 /* LaunchScreen.xib */; };
-		842E43A71B900937009B5E17 /* BQPopupControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E43A61B900937009B5E17 /* BQPopupControllerTests.m */; };
+		842E43A71B900937009B5E17 /* BQLocalizableStringExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E43A61B900937009B5E17 /* BQLocalizableStringExampleTests.m */; };
+		842E43B51B900D70009B5E17 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842E43B31B900D70009B5E17 /* Localizable.strings */; };
+		842E43B81B900D79009B5E17 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842E43B61B900D79009B5E17 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		842E43871B900936009B5E17 /* BQPopupController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BQPopupController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842E43871B900936009B5E17 /* BQLocalizableStringExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BQLocalizableStringExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842E438B1B900936009B5E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842E438C1B900936009B5E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		842E438E1B900936009B5E17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +39,11 @@
 		842E43951B900936009B5E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842E43971B900936009B5E17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		842E439A1B900936009B5E17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		842E43A01B900937009B5E17 /* BQPopupControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQPopupControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842E43A01B900937009B5E17 /* BQLocalizableStringExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQLocalizableStringExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842E43A51B900937009B5E17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		842E43A61B900937009B5E17 /* BQPopupControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQPopupControllerTests.m; sourceTree = "<group>"; };
+		842E43A61B900937009B5E17 /* BQLocalizableStringExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQLocalizableStringExampleTests.m; sourceTree = "<group>"; };
+		842E43B41B900D70009B5E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		842E43B71B900D79009B5E17 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,8 @@
 		842E437E1B900936009B5E17 = {
 			isa = PBXGroup;
 			children = (
-				842E43891B900936009B5E17 /* BQPopupController */,
-				842E43A31B900937009B5E17 /* BQPopupControllerTests */,
+				842E43891B900936009B5E17 /* BQLocalizableStringExample */,
+				842E43A31B900937009B5E17 /* BQLocalizableStringExampleTests */,
 				842E43881B900936009B5E17 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,15 +76,16 @@
 		842E43881B900936009B5E17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				842E43871B900936009B5E17 /* BQPopupController.app */,
-				842E43A01B900937009B5E17 /* BQPopupControllerTests.xctest */,
+				842E43871B900936009B5E17 /* BQLocalizableStringExample.app */,
+				842E43A01B900937009B5E17 /* BQLocalizableStringExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		842E43891B900936009B5E17 /* BQPopupController */ = {
+		842E43891B900936009B5E17 /* BQLocalizableStringExample */ = {
 			isa = PBXGroup;
 			children = (
+				842E43B01B9009B6009B5E17 /* Resources */,
 				842E438E1B900936009B5E17 /* AppDelegate.h */,
 				842E438F1B900936009B5E17 /* AppDelegate.m */,
 				842E43911B900936009B5E17 /* ViewController.h */,
@@ -90,7 +95,7 @@
 				842E43991B900936009B5E17 /* LaunchScreen.xib */,
 				842E438A1B900936009B5E17 /* Supporting Files */,
 			);
-			path = BQPopupController;
+			path = BQLocalizableStringExample;
 			sourceTree = "<group>";
 		};
 		842E438A1B900936009B5E17 /* Supporting Files */ = {
@@ -102,13 +107,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		842E43A31B900937009B5E17 /* BQPopupControllerTests */ = {
+		842E43A31B900937009B5E17 /* BQLocalizableStringExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				842E43A61B900937009B5E17 /* BQPopupControllerTests.m */,
+				842E43A61B900937009B5E17 /* BQLocalizableStringExampleTests.m */,
 				842E43A41B900937009B5E17 /* Supporting Files */,
 			);
-			path = BQPopupControllerTests;
+			path = BQLocalizableStringExampleTests;
 			sourceTree = "<group>";
 		};
 		842E43A41B900937009B5E17 /* Supporting Files */ = {
@@ -119,12 +124,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		842E43B01B9009B6009B5E17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				842E43B21B900D5D009B5E17 /* en.lproj */,
+				842E43B11B900D44009B5E17 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		842E43B11B900D44009B5E17 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				842E43B61B900D79009B5E17 /* Localizable.strings */,
+			);
+			name = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		842E43B21B900D5D009B5E17 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				842E43B31B900D70009B5E17 /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		842E43861B900936009B5E17 /* BQPopupController */ = {
+		842E43861B900936009B5E17 /* BQLocalizableStringExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 842E43AA1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQPopupController" */;
+			buildConfigurationList = 842E43AA1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQLocalizableStringExample" */;
 			buildPhases = (
 				842E43831B900936009B5E17 /* Sources */,
 				842E43841B900936009B5E17 /* Frameworks */,
@@ -134,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = BQPopupController;
+			name = BQLocalizableStringExample;
 			productName = BQPopupController;
-			productReference = 842E43871B900936009B5E17 /* BQPopupController.app */;
+			productReference = 842E43871B900936009B5E17 /* BQLocalizableStringExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		842E439F1B900937009B5E17 /* BQPopupControllerTests */ = {
+		842E439F1B900937009B5E17 /* BQLocalizableStringExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 842E43AD1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQPopupControllerTests" */;
+			buildConfigurationList = 842E43AD1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQLocalizableStringExampleTests" */;
 			buildPhases = (
 				842E439C1B900937009B5E17 /* Sources */,
 				842E439D1B900937009B5E17 /* Frameworks */,
@@ -152,9 +182,9 @@
 			dependencies = (
 				842E43A21B900937009B5E17 /* PBXTargetDependency */,
 			);
-			name = BQPopupControllerTests;
+			name = BQLocalizableStringExampleTests;
 			productName = BQPopupControllerTests;
-			productReference = 842E43A01B900937009B5E17 /* BQPopupControllerTests.xctest */;
+			productReference = 842E43A01B900937009B5E17 /* BQLocalizableStringExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,21 +205,22 @@
 					};
 				};
 			};
-			buildConfigurationList = 842E43821B900936009B5E17 /* Build configuration list for PBXProject "BQPopupController" */;
+			buildConfigurationList = 842E43821B900936009B5E17 /* Build configuration list for PBXProject "BQLocalizableStringExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 842E437E1B900936009B5E17;
 			productRefGroup = 842E43881B900936009B5E17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				842E43861B900936009B5E17 /* BQPopupController */,
-				842E439F1B900937009B5E17 /* BQPopupControllerTests */,
+				842E43861B900936009B5E17 /* BQLocalizableStringExample */,
+				842E439F1B900937009B5E17 /* BQLocalizableStringExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,7 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842E43B81B900D79009B5E17 /* Localizable.strings in Resources */,
 				842E43961B900936009B5E17 /* Main.storyboard in Resources */,
+				842E43B51B900D70009B5E17 /* Localizable.strings in Resources */,
 				842E439B1B900936009B5E17 /* LaunchScreen.xib in Resources */,
 				842E43981B900936009B5E17 /* Images.xcassets in Resources */,
 			);
@@ -229,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842E43A71B900937009B5E17 /* BQPopupControllerTests.m in Sources */,
+				842E43A71B900937009B5E17 /* BQLocalizableStringExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +271,7 @@
 /* Begin PBXTargetDependency section */
 		842E43A21B900937009B5E17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 842E43861B900936009B5E17 /* BQPopupController */;
+			target = 842E43861B900936009B5E17 /* BQLocalizableStringExample */;
 			targetProxy = 842E43A11B900937009B5E17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -258,6 +291,22 @@
 				842E439A1B900936009B5E17 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		842E43B31B900D70009B5E17 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842E43B41B900D70009B5E17 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		842E43B61B900D79009B5E17 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842E43B71B900D79009B5E17 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,9 +396,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BQPopupController/Info.plist;
+				INFOPLIST_FILE = BQLocalizableStringExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BQLocalizableStringExample;
 			};
 			name = Debug;
 		};
@@ -357,9 +406,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = BQPopupController/Info.plist;
+				INFOPLIST_FILE = BQLocalizableStringExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BQLocalizableStringExample;
 			};
 			name = Release;
 		};
@@ -375,10 +424,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = BQPopupControllerTests/Info.plist;
+				INFOPLIST_FILE = BQLocalizableStringExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQPopupController.app/BQPopupController";
+				PRODUCT_NAME = BQLocalizableStringExampleTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQLocalizableStringExample.app/BQLocalizableStringExample";
 			};
 			name = Debug;
 		};
@@ -390,17 +439,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = BQPopupControllerTests/Info.plist;
+				INFOPLIST_FILE = BQLocalizableStringExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQPopupController.app/BQPopupController";
+				PRODUCT_NAME = BQLocalizableStringExampleTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BQLocalizableStringExample.app/BQLocalizableStringExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		842E43821B900936009B5E17 /* Build configuration list for PBXProject "BQPopupController" */ = {
+		842E43821B900936009B5E17 /* Build configuration list for PBXProject "BQLocalizableStringExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				842E43A81B900937009B5E17 /* Debug */,
@@ -409,21 +458,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		842E43AA1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQPopupController" */ = {
+		842E43AA1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQLocalizableStringExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				842E43AB1B900937009B5E17 /* Debug */,
 				842E43AC1B900937009B5E17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		842E43AD1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQPopupControllerTests" */ = {
+		842E43AD1B900937009B5E17 /* Build configuration list for PBXNativeTarget "BQLocalizableStringExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				842E43AE1B900937009B5E17 /* Debug */,
 				842E43AF1B900937009B5E17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
